@@ -1,15 +1,22 @@
+#import <Cephei/HBPreferences.h>
+
+HBPreferences *_Nullable pref;
+
+BOOL alwaysLatestTimeline;
+BOOL disablePromotions;
+
 @interface TFNTwitterStatus: NSObject
 @property(readonly, nonatomic) bool isPromoted;
 @end
 
 @interface TFNDataViewItem: NSObject
-@property(retain, nonatomic) id item;
+@property(retain, nonatomic) id _Nullable item;
 @end
 
 @interface TFNDataViewController
-- (TFNDataViewItem*)itemsInternalDataViewItemAtValidIndexPath: (id)v1;
+- (TFNDataViewItem *_Nullable)itemsInternalDataViewItemAtValidIndexPath:(id _Nullable)v1;
 @end
 
 @interface TFNItemsDataViewController: TFNDataViewController
-- (id)itemAtIndexPath: (id)arg1;
+- (id _Nullable)itemAtIndexPath:(id _Nullable)arg1;
 @end

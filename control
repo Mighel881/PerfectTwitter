@@ -1,7 +1,7 @@
 Package: com.johnzaro.perfecttwitter
 Name: PerfectTwitter
 Depends: mobilesubstrate, firmware (>= 13)
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
 Description: Always latest timeline & remove all promotion posts
 Maintainer: Johnzaro <johnzrgnns@gmail.com>
