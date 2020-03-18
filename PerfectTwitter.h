@@ -1,10 +1,3 @@
-#import <Cephei/HBPreferences.h>
-
-HBPreferences *_Nullable pref;
-
-BOOL alwaysLatestTimeline;
-BOOL disablePromotions;
-
 @interface TFNTwitterStatus: NSObject
 @property(readonly, nonatomic) bool isPromoted;
 @end

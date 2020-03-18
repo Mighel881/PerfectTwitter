@@ -1,5 +1,11 @@
 #import "PerfectTwitter.h"
 
+#import <Cephei/HBPreferences.h>
+
+static HBPreferences *pref;
+static BOOL alwaysLatestTimeline;
+static BOOL disablePromotions;
+
 // -------------------------------- ALWAYS LATEST TIMELINE --------------------------------
 
 %group alwaysLatestTimelineGroup
